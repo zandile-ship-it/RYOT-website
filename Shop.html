@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="Shop.html">
+<body>
+    <header>
+  <h1>RYOT</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Shop.html">Shop</a></li>
+    <li><a href="community.html">Community</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+    </header>
+
+  <section id="shop">
+    <div class="a"></div>
+    <h1 style="text-align: center;">Shop with us</h1>
+  </section>
+
+  <div class="grid">
+    <div class="card">
+      <img src="images/ryot btop.jpeg">
+      <h3>Men's black Jersey</h3>
+      <p>R150</p>
+      <button class="btn" onclick="addToCart('Jersey',350)">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/ryot hoddie.jpeg" alt="unisex hoddie and cap">
+      <h3>Unisex Hoodie</h3>
+      <p>R350</p>
+      <button class="btn" onclick="addToCart('Training Gear',500)">Add to Cart</button>
+    </div>
+    <div class="card">
+      <img src="images/ryot sports bra.jpeg" alt="womens sports bra">
+      <h3>Womens sports bra</h3>
+      <p>R120</p>
+      <button class="btn" onclick="addToCart('Gym Wear',400)">Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="images/ryot m shorts.jpeg" alt="mens shorts">
+        <h3> Mens shorts</h3>
+        <p>R200</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="images/ryot top.jpeg" alt="mens top">
+        <h3> Mens Red Jersey</h3>
+        <p>R150</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="images/ryot w leggings red.jpeg" alt="red womens leggings">
+        <h3> Red Women's leggings</h3>
+        <p>R120</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="images/ryot w leggings.jpeg" alt="black womens leggings">
+        <h3> Black womens leggings</h3>
+        <p>R120</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="images/ryot w shorts.jpeg" alt="womens shorts">
+        <h3> womens shorts</h3>
+        <p>R110</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="images/ryot w tanks.jpeg" alt="womens tank tops">
+        <h3> Women's Tank Tops</h3>
+        <p>R150</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+        <img src="" alt="womens tops">
+        <h3> Women's Black Jersey</h3>
+        <p>R120</p>
+        <button class="btn" onclick="addToCart('Mens shorts' ,200)"> Add to Cart</button> 
+    </div>
+    <div class="card">
+      <img src="images/ryot w.jpeg" alt="women's">
+      <h3>Women's Red Jersey</h3>
+      <p>R120</p>
+      <button class="btn" onclick="addToCart('Womens Red top' ,150)">Add to Cart</button>
+
+    </div>
+  </div>
+  <div class="cart" onclick="toggleCart()">🛒</div>
+
+<div class="cart-panel" id="cartPanel">
+  <h3>Your Cart</h3>
+  <ul id="cartItems"></ul>
+  <p id="total">Total: R0</p>
+</div>
+<footer>
+  <a href="https://www.facebook.com/people/Ryot-Sport/61567552105268/?rdid=bLcqPYI0sAxZ3lGB&share_url=https%253A%252F%252Fwww.facebook.com%252Fshare%252F1XtCZC3nhN%252F">
+    <ion-icon name="logo-facebook"></ion-icon>
+  </a>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <p>© 2026 RYOT Sports</p>
+</footer>
+</body>
+</html>
